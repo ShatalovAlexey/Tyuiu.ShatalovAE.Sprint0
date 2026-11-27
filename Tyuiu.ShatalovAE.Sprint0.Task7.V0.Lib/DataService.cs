@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tyuiu.ShatalovAE.Sprint0.Task7.V0.Lib
+{
+    public class DataService
+    {
+        public static int[] AdditionArrays(int[] numOne, int[] numsTwo)
+        {
+            int[] resultArray = new int[5];
+            for(var i = 0; i < resultArray.Length; i++)
+            {
+                resultArray[i] = numOne[i] + numsTwo[i];
+            }
+            return resultArray;
+        }
+    }
+}
